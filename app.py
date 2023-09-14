@@ -1,11 +1,11 @@
 from keras_preprocessing.text import Tokenizer
 from keras_preprocessing.sequence import pad_sequences
-from keras.applications.xception import Xception
+
 from keras.models import load_model
 from pickle import load
 import numpy as np
 from PIL import Image
-import matplotlib.pyplot as plt
+
 import streamlit as st
 
 # ap = argparse.ArgumentParser()
